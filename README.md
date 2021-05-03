@@ -8,4 +8,4 @@ Full Stack Developer
 <br>
 
 This is my personal portfolio website. I set it up for future employers to show off my skills and some of the projects I've worked on.
-It is written in HTML and CSS with the help of the Bootstrap CSS framework.
+It is written in React with the help of JavaScript, HTML, CSS, and the Bootstrap framework.
