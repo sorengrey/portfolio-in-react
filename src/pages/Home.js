@@ -21,7 +21,7 @@ function Home() {
             <p>
               <em>
                 <b>Heather Smith</b>
-              </em>{" "}
+              </em>
               is a developer currently enrolled in Georgia Tech's Full Stack
               Flex Bootcamp. Her skills include:
             </p>

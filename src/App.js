@@ -11,7 +11,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-    <div>
+    <div className="container-fluid">
       <Header />
         <Route exact path="/" component={Home} />
         <Route exact path="/home" component={Home} />

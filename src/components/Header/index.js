@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
+      <div>
     <nav className="navbar navbar-expand-lg navbar-dark justify-content-center">
       <button
         className="navbar-toggler"
@@ -54,6 +55,7 @@ function Header() {
         </li>
       </ul>
     </nav>
+    </div>
   );
 }
 
