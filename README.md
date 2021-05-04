@@ -1,7 +1,7 @@
 ## Heather Smith
 Full Stack Developer
 
-![screenshot of portfolio website](./public/img/readme-screenshot.png?raw=true "screenshot of website")
+![screenshot of portfolio website](./src/img/readme-screenshot.png?raw=true "screenshot of website")
 <br>
 [Click here for the deployed website.](https://sorengrey.github.io/portfolio-updated/)
 <br>
