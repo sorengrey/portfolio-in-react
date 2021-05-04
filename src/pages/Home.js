@@ -1,5 +1,7 @@
 import React from "react";
 import "./Home.css";
+import biopic from '../img/bio-picture.png';
+import kitties from '../img/kitties.jpg';
 
 function Home() {
   return (
@@ -13,7 +15,7 @@ function Home() {
         <div className="row justify-content-center">
           <div className="col-sm-12">
             <img
-              src="../../public/img/bio-picture.png"
+              src={biopic}
               className="img-thumbnail float-start"
               id="profile-img"
               alt="Heather Smith"
@@ -82,7 +84,7 @@ function Home() {
               <br />
               <br />
               <img
-                src="../../public/img/kitties.jpg"
+                src={kitties}
                 className="img-thumbnail float-end"
                 id="kitties"
                 alt="Bun and Mia, two cats"
