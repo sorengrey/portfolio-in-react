@@ -32,7 +32,7 @@ function Header() {
         </li>
         <li className="nav-item">
           <Link
-            to="/home"
+            to="/portfolio"
             className={
               window.location.pathname === "/portfolio"
                 ? "nav-link active"
@@ -44,7 +44,7 @@ function Header() {
         </li>
         <li className="nav-item">
           <Link
-            to="/home"
+            to="/contact"
             className={
               window.location.pathname === "/contact"
                 ? "nav-link active"

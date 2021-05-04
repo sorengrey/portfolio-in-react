@@ -55,7 +55,7 @@ function Contact() {
               <div
                 className="card text-center"
                 id="social"
-                style="width: 18rem;"
+                // style="width: 18rem;"
               >
                 <div className="card-body">
                   {/* <h5 className="card-title"></h5> */}
@@ -88,7 +88,7 @@ function Contact() {
               <div
                 className="card mt-1 text-center"
                 id="resume"
-                style="width: 18rem;"
+                // style="width: 18rem;"
               >
                 <div className="card-body">
                   <h3>
