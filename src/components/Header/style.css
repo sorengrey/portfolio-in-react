@@ -1,0 +1,16 @@
+html,
+body {
+  height: 100%;
+}
+
+#title-nav {
+  align-content: center;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #304876, #ea8bb7);
+}
+
+.nav-link:hover {
+  background-color: #829cb4;
+}
