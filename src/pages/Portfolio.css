@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+  }
+
+  body {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-size: auto;
+    background-position: static;
+  }
+
+/* Container Around Portfolio Images */
+#portfolio-images {
+    background-color: #829cb4;
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 65%;
+  }
+
+/* Images Inside Portfolio Container */
+.col-sm-6 {
+    padding: 15px;
+  }
+

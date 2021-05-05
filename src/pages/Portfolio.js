@@ -1,12 +1,11 @@
 import React from "react";
+import './Portfolio.css';
 import sheep from '../img/electric-sheep.png';
 import quiz from '../img/code-quiz-screenshot.png';
 import notetaker from '../img/note-taker.png';
 import scheduler from '../img/planner-screenshot.png'
 import weather from '../img/weather-screenshot.png'
 import tracker from '../img/tracker.png'
-
-
 
 function Portfolio() {
   return (
