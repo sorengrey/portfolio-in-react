@@ -2,7 +2,7 @@ html, body {
     height: 100%;
   }
 
-  body {
+body {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica;
     display: flex;
     flex-direction: column;
@@ -27,3 +27,41 @@ html, body {
     padding: 15px;
   }
 
+.card {
+    width: 18rem;
+}
+
+/* Image Hover Animation */
+img:hover {
+    box-shadow: 0 0 2px 2px #ea8bb7;
+  }
+  
+
+  @media (min-width: 768px) {
+    .container-small {
+        width: 300px;
+    }
+    .container-large {
+        width: 970px;
+    } 
+  } 
+  @media (min-width: 992px) {
+    .container-small {
+        width: 500px;
+    }
+    .container-large {
+        width: 1170px;
+    } 
+  } 
+  @media (min-width: 1200px) {
+    .container-small {
+        width: 700px;
+    }
+    .container-large {
+        width: 1500px;
+    } 
+  }
+  
+  .container-small, .container-large {
+    max-width: 100%;
+  }

@@ -19,10 +19,7 @@ function Portfolio() {
 
         <section className="row">
           <section className="col-sm-12">
-            <div
-              className="card float-start"
-              // style="width: 18rem;"
-            >
+            <div className="card float-start">
               <img
                 src={sheep}
                 className="card-img-top img-thumbnail"
@@ -50,10 +47,7 @@ function Portfolio() {
               </div>
             </div>
 
-            <div
-              className="card float-start"
-              //  style="width: 18rem;"
-            >
+            <div className="card float-start">
               <img
                 src={weather}
                 className="card-img-top img-thumbnail"
@@ -69,22 +63,19 @@ function Portfolio() {
                 </p>
                 <a
                   href="https://sorengrey.github.io/OpenWeather-Dashboard/"
-                  class="card-link"
+                  className="card-link"
                   target="_blank"
                   rel="noreferrer"
                 >
                   Live Application
                 </a>
-                <a href="#" class="card-link">
+                <a href="#" className="card-link">
                   Github Repo
                 </a>
               </div>
             </div>
 
-            <div
-              className="card float-start"
-              // style="width: 18rem;"
-            >
+            <div className="card float-start">
               <img
                 src={scheduler}
                 className="card-img-top img-thumbnail"
@@ -114,10 +105,7 @@ function Portfolio() {
               </div>
             </div>
 
-            <div
-              className="card float-start"
-              //   style="width: 18rem;"
-            >
+            <div className="card float-start">
               <img
                 src={quiz}
                 className="card-img-top img-thumbnail"
@@ -147,10 +135,7 @@ function Portfolio() {
               </div>
             </div>
 
-            <div
-              className="card float-start"
-              //    style="width: 18rem;"
-            >
+            <div className="card float-start">
               <img
                 src={notetaker}
                 className="card-img-top img-thumbnail"
@@ -181,10 +166,7 @@ function Portfolio() {
               </div>
             </div>
 
-            <div
-              className="card float-start"
-              // style="width: 18rem;"
-            >
+            <div className="card float-start">
               <img
                 src={tracker}
                 className="card-img-top img-thumbnail"
