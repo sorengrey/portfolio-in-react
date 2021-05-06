@@ -3,7 +3,7 @@ import "./style.css"
 
 function Footer() {
     return (
-        <div>
+        <div className="fixed-bottom">
             <center>
                 <footer>© 2021</footer>
             </center>

@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="content">
       <div className="box">
-        <h1 className="display-1">Heather Smith</h1>
+        <h1 className="display-2">Heather Smith</h1>
         <em>full stack developer</em>
       </div>
 
@@ -47,7 +47,7 @@ function Home() {
                   Express
                 </li>
                 <li className="list-group-item list-group-item-action text-center">
-                  Handlebars
+                  React
                 </li>
               </ul>
 
@@ -64,7 +64,7 @@ function Home() {
                 <li className="list-group-item list-group-item-action text-center li2">
                   MongoDB
                 </li>
-                <li className="list-group-item list-group-item-action text-center  li2">
+                <li className="list-group-item list-group-item-action text-center li2">
                   mySQL
                 </li>
                 <li className="list-group-item list-group-item-action text-center li2">

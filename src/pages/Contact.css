@@ -1,0 +1,62 @@
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-size: auto;
+    background-position: static;
+  }
+
+/* Contact Form on Contact */
+#contactform {
+    padding-top: 3px;
+    background-color: #829cb4;
+    border-radius: 5px;
+    margin: auto;
+    width: 55%;
+    padding: 10px;
+    border: solid 1px #ea8bb7;
+  }
+
+  /* Social Media Links on Contact */
+ #social-links {
+    padding-top: 3px;
+  } 
+
+  /* LinkedIn and Github Icons on Contact */
+.icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+
+  /* Image Hover Animation */
+img:hover {
+    box-shadow: 0 0 2px 2px #ea8bb7;
+  }
+
+  /* Sets The Card Text Color */
+.card {
+    color: black;
+    margin-right: 5px;
+    margin-top: 3px;
+  }
+
+  h3 {
+    margin-top: 10px;
+  }
+
+  /* PDF Logo on Contact */
+#adobe {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+
+  .content {
+    flex: 1 0 auto;
+  }
+
+  b {
+    font-size: 1.2em;
+  }
