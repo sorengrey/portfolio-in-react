@@ -1,13 +1,13 @@
 import React from "react";
-import linkedin from "../img/linkedin.png";
-import github from "../img/github.png";
-import adobe from "../img/adobe.png";
+import linkedin from "../../img/linkedin.png";
+import github from "../../img/github.png";
+import adobe from "../../img/adobe.png";
 import "./Contact.css"
 // import Resume from "../components/Resume/";
 
 function Contact() {
   return (
-        <div className="container-sm content" id="contactform">
+        <div className="container-sm content mt-3" id="contactform">
           <section className="container-sm">
           <div className="row">
             <div className="col-6">
@@ -44,16 +44,14 @@ function Contact() {
                 <button type="submit" className="btn btn-primary">
                   Submit
                 </button>
-            </div>
 
-            <div className="col-3" id="social-links">
               <div
-                className="card text-center"
+                className="card text-center email-phone"
                 id="social">
                 <div className="card-body">
-                  {/* <h5 className="card-title"></h5> */}
                   <p className="card-text">
                     Heather can be reached at
+                    <br/>
                     <b>
                       <a
                         href="mailto:halexsmith86@gmail.com"
@@ -79,13 +77,11 @@ function Contact() {
                     <img src={linkedin} className="icon" alt="LinkedIn logo" />
                   </a>
                 </div>
-              </div>
+              
 
               <div
                 className="card mt-1 text-center"
-                id="resume"
-                // style="width: 18rem;"
-              >
+                id="resume">
                 <div className="card-body">
                   <h3>
                     <b>Resume</b>
@@ -97,8 +93,9 @@ function Contact() {
                   </a>
                 </div>
               </div>
+              </div>
             </div>
-          </div>
+            </div>
           </section>
         </div>
      

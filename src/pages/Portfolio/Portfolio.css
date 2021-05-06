@@ -29,13 +29,14 @@ body {
 
 .card {
     width: 18rem;
+    margin-right: 5px;
+    margin-top: 3px;
 }
 
 /* Image Hover Animation */
 img:hover {
     box-shadow: 0 0 2px 2px #ea8bb7;
   }
-  
 
   @media (min-width: 768px) {
     .container-small {

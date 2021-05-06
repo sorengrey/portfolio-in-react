@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   color: white;
-  background-image: url(../img/moss-bg-darker.jpg);
+  background-image: url(../../img/moss-bg-darker.jpg);
   background-size: auto;
   background-position: static;
 }

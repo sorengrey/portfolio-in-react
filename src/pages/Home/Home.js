@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
-import biopic from '../img/bio-picture.png';
-import kitties from '../img/kitties.jpg';
+import biopic from '../../img/bio-picture.png';
+import kitties from '../../img/kitties.jpg';
 
 function Home() {
   return (
