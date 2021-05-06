@@ -1,8 +1,13 @@
 import React from "react";
+import "./style.css"
 
 function Footer() {
     return (
-        <div></div>
+        <div>
+            <center>
+                <footer>© 2021</footer>
+            </center>
+        </div>
     )
 }
 

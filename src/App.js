@@ -13,10 +13,12 @@ function App() {
     <Router>
     <div>
       <Header />
+      <div className="container-fluid">
         <Route exact path="/" component={Home} />
         <Route exact path="/home" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
+      </div>
       <Footer />
     </div>
   </Router>
