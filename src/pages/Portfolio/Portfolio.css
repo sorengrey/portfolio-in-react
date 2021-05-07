@@ -13,13 +13,13 @@ body {
 
 /* Container Around Portfolio Images */
 #portfolio-images {
-    background-color: #829cb4;
+    /* background-color: #829cb4;
     margin-top: 15px;
     padding-top: 5px;
     padding-bottom: 25px;
     margin-bottom: 5px;
     border-radius: 5px;
-    width: 65%;
+    width: 65%; */
   }
 
 /* Images Inside Portfolio Container */

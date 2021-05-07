@@ -10,7 +10,7 @@ import tracker from '../../img/tracker.png'
 function Portfolio() {
   return (
     <div>
-      <section className="container-sm content" id="portfolio-images">
+      <section className="container content" id="portfolio-images">
         <section className="row">
           <section className="col-sm-12">
             <h1>Portfolio</h1>
