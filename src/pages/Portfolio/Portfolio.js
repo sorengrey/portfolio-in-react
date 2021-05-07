@@ -1,16 +1,25 @@
 import React from "react";
 import './Portfolio.css';
-import sheep from '../../img/electric-sheep.png';
-import quiz from '../../img/code-quiz-screenshot.png';
-import notetaker from '../../img/note-taker.png';
-import scheduler from '../../img/planner-screenshot.png'
-import weather from '../../img/weather-screenshot.png'
-import tracker from '../../img/tracker.png'
+import Project from "../../components/Project";
+// import project from "../../components/Project/projects";
+
+// import sheep from '../../img/electric-sheep.png';
+// import quiz from '../../img/code-quiz-screenshot.png';
+// import notetaker from '../../img/note-taker.png';
+// import scheduler from '../../img/planner-screenshot.png'
+// import weather from '../../img/weather-screenshot.png'
+// import tracker from '../../img/tracker.png'
+// import projects from "./projects.js"
 
 function Portfolio() {
   return (
     <div>
-      <section className="container content" id="portfolio-images">
+      
+      <Project
+ />
+    
+
+      {/* <section className="container content" id="portfolio-images">
         <section className="row">
           <section className="col-sm-12">
             <h1>Portfolio</h1>
@@ -190,7 +199,7 @@ function Portfolio() {
             </div>
           </section>
         </section>
-      </section>
+      </section> */}
     </div>
   );
 }
