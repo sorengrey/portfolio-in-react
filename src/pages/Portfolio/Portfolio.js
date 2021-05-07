@@ -4,8 +4,12 @@ import Project from "../../components/Project";
 
 function Portfolio() {
   return (
-    <div>
+    <div className="container">
+    <div className="row">
+      <div className="col-lg-12">
       <Project/>
+    </div>
+    </div>
     </div>
   );
 }

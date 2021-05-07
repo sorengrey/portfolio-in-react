@@ -10,3 +10,33 @@ body {
     background-size: auto;
     background-position: static;
   }
+
+.col-sm-6 {
+    padding: 15px;
+  }
+
+/* Container Around Portfolio Images */
+#portfolio-images {
+    background-color: #829cb4;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    width: 65%;
+    float: inline-start;
+  }
+
+
+.card {
+    color: black;
+    margin-right: 5px;
+    margin-top: 3px;
+  }
+
+
+  .content {
+    flex: 1 0 auto;
+  }
+  
+  .container-small, .container-large {
+    max-width: 100%;
+  }
