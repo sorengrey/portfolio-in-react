@@ -18,7 +18,7 @@ body {
   background-color: #829cb4;
   border-radius: 5px;
   margin: auto;
-  width: 70%;
+  width: 70%; 
   padding: 10px;
   border: solid 1px #ea8bb7;
 }
@@ -50,8 +50,7 @@ button:hover {
 /* Sets The Card Text Color */
 .card {
   color: black;
-  margin-right: 5px;
-  margin-top: 3px;
+  margin: auto;
 }
 
 h3 {

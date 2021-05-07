@@ -7,8 +7,7 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <div className="container content mt-3" id="contactform">
-      <section className="container-sm">
+    <div className="mt-3" id="contactform">
         <div className="row">
           <div className="col-6">
             <h1>Contact</h1>
@@ -93,7 +92,6 @@ function Contact() {
               </div>
             </div>
           </div>
-      </section>
     </div>
   );
 }
