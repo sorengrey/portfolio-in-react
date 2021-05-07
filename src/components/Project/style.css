@@ -1,0 +1,12 @@
+html, body {
+    height: 100%;
+  }
+
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-size: auto;
+    background-position: static;
+  }
