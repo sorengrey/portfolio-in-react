@@ -6,9 +6,10 @@ import "./style.css";
 function Project() {
     return (
         <>
-        <div className="card">
         {projects.map((data, key) => {
           return (
+            <div className="col-sm-6">
+            <div className="card">
             <div key={key}>
                 <img
                 src={data.img}
@@ -33,9 +34,10 @@ function Project() {
                 </a>
               </div> 
             </div>
+            </div>
+      </div>
           );
       })}
-      </div>
     </>
   );
 };
