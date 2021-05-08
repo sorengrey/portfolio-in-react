@@ -1,7 +1,6 @@
 import React from "react";
 import { projects } from "./projects.js"
 import "./style.css";
-import sheep from "../../img/electric-sheep.png";
 
 function Project() {
     return (

@@ -32,7 +32,7 @@ function Home() {
       
             <div id="skill-list">
               <ul className="list-group d-inline-flex">
-                <li className="list-group-item list-group-item-action text-center">
+                <li className="test list-group-item list-group-item-action text-center">
                   JavaScript
                 </li>
                 <li className="list-group-item list-group-item-action text-center">

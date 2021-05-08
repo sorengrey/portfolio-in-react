@@ -70,20 +70,22 @@ li,
 
 /* Skills */
 .list-group-item {
-  background-color: #ea8bb7;
-  color: white;
+  background-color: #ea8bb7 !important;
+  color: white !important;
 }
 
 .list-group-item:hover {
-  background-color: #829cb4;
+  background-color: #829cb4 !important;
   color: white;
 }
 
+
+
 /* Second Column of Skills */
-.li2 {
+/* .li2 {
   margin-left: 4px;
   margin-right: 4px;
-}
+} */
 
 b {
   font-size: 1.2em;
