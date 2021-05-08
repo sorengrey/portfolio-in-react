@@ -54,6 +54,7 @@ body {
   border-radius: 50%;
   margin-left: 12px;
   margin-bottom: 12px;
+  float: inline-end;
 }
 
 /* Image Hover Animation */
@@ -68,10 +69,9 @@ li,
 }
 
 /* Skills */
-.list-group {
+.list-group-item-action {
   background-color: #ea8bb7;
   color: white;
-  margin-left: 10px;
 }
 
 .list-group-item:hover {
@@ -122,3 +122,4 @@ b {
 .content {
   flex: 1 0 auto;
 }
+

@@ -23,9 +23,9 @@ function Home() {
 
             <p>
               <em>
-                <b>Heather Smith</b>
+                <b>Heather Smith </b>
               </em>
-              is a developer currently enrolled in Georgia Tech's Full Stack
+              is a developer about to graduate from Georgia Tech's Full Stack
               Flex Bootcamp. Her skills include:
             </p>
 
@@ -73,7 +73,7 @@ function Home() {
               </ul>
             </div>
             <br />
-            <p className="text-justify">
+            <p>
               Before the pandemic, Heather was working as an office
               administrator for a small label printing company. As the pandemic
               spread, she left her job and started self-guided studies with
