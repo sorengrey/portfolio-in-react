@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="content">
       <div className="box">
-        <h1 className="display-2">Heather Smith</h1>
+        <h1 className="display-3">Heather Smith</h1>
         <em>full stack developer</em>
       </div>
 
@@ -28,7 +28,8 @@ function Home() {
               is a developer about to graduate from Georgia Tech's Full Stack
               Flex Bootcamp. Her skills include:
             </p>
-
+        
+      
             <div id="skill-list">
               <ul className="list-group d-inline-flex">
                 <li className="list-group-item list-group-item-action text-center">
@@ -52,22 +53,22 @@ function Home() {
               </ul>
 
               <ul className="list-group d-inline-flex">
-                <li className="list-group-item list-group-item-action text-center li2">
+                <li className="list-group-item list-group-item-action text-center ">
                   HTML
                 </li>
-                <li className="list-group-item list-group-item-action text-center li2">
+                <li className="list-group-item list-group-item-action text-center ">
                   CSS
                 </li>
-                <li className="list-group-item list-group-item-action text-center li2">
+                <li className="list-group-item list-group-item-action text-center ">
                   Bootstrap
                 </li>
-                <li className="list-group-item list-group-item-action text-center li2">
+                <li className="list-group-item list-group-item-action text-center ">
                   MongoDB
                 </li>
-                <li className="list-group-item list-group-item-action text-center li2">
+                <li className="list-group-item list-group-item-action text-center ">
                   mySQL
                 </li>
-                <li className="list-group-item list-group-item-action text-center li2">
+                <li className="list-group-item list-group-item-action text-center ">
                   Sequelize
                 </li>
               </ul>
@@ -81,8 +82,8 @@ function Home() {
               she had built a foundation and it was time to move forward. The GA
               Tech bootcamp has been an enormous challenge, but she is on track
               to graduate at the end of May, 2021.
-              <br />
-              <br />
+              {/* <br />
+              <br /> */}
               <img
                 src={kitties}
                 className="img-thumbnail float-end"
