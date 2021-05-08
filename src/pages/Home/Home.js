@@ -73,7 +73,7 @@ function Home() {
               </ul>
             </div>
             <br />
-            <p>
+            <p className="text-justify">
               Before the pandemic, Heather was working as an office
               administrator for a small label printing company. As the pandemic
               spread, she left her job and started self-guided studies with

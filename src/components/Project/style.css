@@ -1,47 +1,46 @@
-html, body {
-    height: 100%;
-  }
+html,
+body {
+  height: 100%;
+}
 
 body {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    background-size: auto;
-    background-position: static;
-  }
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Helvetica;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-size: auto;
+  background-position: static;
+}
 
 .col-sm-6 {
-    padding: 15px;
-  }
+  padding: 15px;
+}
 
 /* Container Around Portfolio Images */
 #portfolio-images {
-    background-color: #829cb4;
-    margin: auto;
-    padding-top: 5px;
-    padding-bottom: 25px;
-    width: 65%;
-    float: inline-start;
-  }
-
+  background-color: #829cb4;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  width: 65%;
+  float: inline-start;
+}
 
 .card {
-    color: black;
-    margin-right: 5px;
-    margin-top: 3px;
-  }
+  color: black;
+  margin-right: 5px;
+  margin-top: 3px;
+}
 
-  .card:hover {
-    box-shadow: 0 0 2px 2px #ea8bb7;
-  }
+.card:hover {
+  box-shadow: 0 0 2px 2px #ea8bb7;
+}
 
+.content {
+  flex: 1 0 auto;
+}
 
-  .content {
-    flex: 1 0 auto;
-  }
-  
-  .container-small, .container-large {
-    max-width: 100%;
-  }
-
+.container-small,
+.container-large {
+  max-width: 100%;
+}

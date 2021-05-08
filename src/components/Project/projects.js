@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import sheep from "../../img/electric-sheep.png";
 import weather from "../../img/weather-screenshot.png";
 import note from "../../img/note-taker.png";

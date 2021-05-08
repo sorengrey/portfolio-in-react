@@ -3,10 +3,11 @@ import linkedin from "../../img/linkedin.png";
 import github from "../../img/github.png";
 import adobe from "../../img/adobe.png";
 import "./Contact.css";
-// import Resume from "../components/Resume/";
+import Resume from "./Heather Smith - Resume.pdf";
 
 function Contact() {
   return (
+    <div className="container-fluid content">
     <div className="mt-3" id="contactform">
         <div className="row">
           <div className="col-6">
@@ -44,7 +45,7 @@ function Contact() {
             </button>
           </div>
 
-          <div className="col-6">
+          <div className="col-4">
             <div className="card text-center email-phone" id="social">
               <div className="card-body">
                 <p className="card-text">
@@ -83,14 +84,14 @@ function Contact() {
                   <h3>
                     <b>Resume</b>
                   </h3>
-                  <a href="" target="_blank" rel="noreferrer">
+                  <a href={Resume} target="_blank" rel="noreferrer">
                     <img id="adobe" src={adobe} alt="Adobe logo" />
                     <p>PDF available here</p>
-                    {/* <Resume /> */}
                   </a>
                 </div>
               </div>
             </div>
+          </div>
           </div>
     </div>
   );

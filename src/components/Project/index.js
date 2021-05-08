@@ -13,7 +13,7 @@ function Project() {
             <div key={key}>
                 <img src={data.img}
                 className="card-img-top img-thumbnail"
-                alt="..."/>
+                alt="screenshot of website"/>
 
                  <div className="card-title text-center">
                   <h5>{data.cardtitle}</h5>
