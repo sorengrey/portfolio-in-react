@@ -1,6 +1,7 @@
 import React from "react";
 import './Portfolio.css';
 import Project from "../../components/Project";
+import "../../img/electric-sheep.png";
 
 function Portfolio() {
   return (
