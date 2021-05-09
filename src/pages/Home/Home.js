@@ -13,7 +13,7 @@ function Home() {
 
       <div className="container mb-4" id="aboutme">
         <div className="row justify-content-center">
-          <div className="col-sm-12">
+          <div className="col-md-12">
             <img
               src={biopic}
               className="img-thumbnail float-start"
@@ -21,15 +21,15 @@ function Home() {
               alt="Heather Smith"
             />
 
-            {/* <p> */}
+
               <em>
                 <b>Heather Smith </b>
               </em>
               is a developer about to graduate from Georgia Tech's Full Stack
               Flex Bootcamp. Her skills include:
-            {/* </p> */}
-        
 
+        
+<center>
             <div id="skill-list">
               <ul className="list-group d-inline-flex">
                 <li className="test list-group-item list-group-item-action text-center">
@@ -74,9 +74,10 @@ function Home() {
               </ul>
               
             </div>
+            </center>
       
             <br />
-            <p>
+
               Before the pandemic, Heather was working as an office
               administrator for a small label printing company. As the pandemic
               spread, she left her job and started self-guided studies with
@@ -97,7 +98,7 @@ function Home() {
                 alt="Bun and Mia, two cats"
               />
               <br />
-            </p>
+
           </div>
         </div>
       </div>
