@@ -21,15 +21,15 @@ function Home() {
               alt="Heather Smith"
             />
 
-            <p>
+            {/* <p> */}
               <em>
                 <b>Heather Smith </b>
               </em>
               is a developer about to graduate from Georgia Tech's Full Stack
               Flex Bootcamp. Her skills include:
-            </p>
+            {/* </p> */}
         
-      
+
             <div id="skill-list">
               <ul className="list-group d-inline-flex">
                 <li className="test list-group-item list-group-item-action text-center">
@@ -72,7 +72,9 @@ function Home() {
                   Sequelize
                 </li>
               </ul>
+              
             </div>
+      
             <br />
             <p>
               Before the pandemic, Heather was working as an office
@@ -82,18 +84,19 @@ function Home() {
               she had built a foundation and it was time to move forward. The GA
               Tech bootcamp has been an enormous challenge, but she is on track
               to graduate at the end of May, 2021.
-              {/* <br />
-              <br /> */}
-              <img
-                src={kitties}
-                className="img-thumbnail float-end"
-                id="kitties"
-                alt="Bun and Mia, two cats"
-              />
+              <br /><br/>
               When she isn't coding, Heather likes gardening, cooking, thrift
               shopping, and video games. She also loves to fossil hunt, and is a
               member of the Georgia Mineral Society. Currently, she lives in
               Sandy Springs, Georgia with her husband and two cats.
+              <br />
+              <img
+                src={kitties}
+                className="img-thumbnail float-right"
+                id="kitties"
+                alt="Bun and Mia, two cats"
+              />
+              <br />
             </p>
           </div>
         </div>

@@ -24,7 +24,7 @@ body {
   padding-bottom: 30px;
   border-radius: 5px;
   border: solid 1px #ea8bb7;
-  width: 60%;
+  width: 50%;
 }
 
 /* About Me Text on Home */
@@ -47,6 +47,8 @@ body {
   margin-right: 12px;
   margin-bottom: 12px;
   border-radius: 50%;
+  max-width: 30%;
+  height: auto;
 }
 
 /* Kitty Image */
@@ -55,6 +57,7 @@ body {
   margin-left: 12px;
   margin-bottom: 12px;
   float: inline-end;
+  height: auto;
 }
 
 /* Image Hover Animation */
@@ -79,13 +82,6 @@ li,
   color: white;
 }
 
-
-
-/* Second Column of Skills */
-/* .li2 {
-  margin-left: 4px;
-  margin-right: 4px;
-} */
 
 b {
   font-size: 1.2em;
